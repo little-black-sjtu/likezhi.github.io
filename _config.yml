@@ -28,17 +28,18 @@ sass:
   style: :compressed
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Kezhi Li
+tagline:          'Personal Site'
+description:      'Personal site for Kezhi Li.'
 url:              "http://little-black-sjtu.github.io/likezhi.github.io"
-baseurl:          ""
+baseurl:          "/"
 
 author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
 paginate:         5
+paginate_path: "page:num/"
 
 # Custom vars
 version:          2.1.0
