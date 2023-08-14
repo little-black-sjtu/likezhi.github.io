@@ -32,7 +32,7 @@ title:            Kezhi Li
 tagline:          'Personal Site'
 description:      'Personal site for Kezhi Li.'
 url:              "http://little-black-sjtu.github.io/likezhi.github.io"
-baseurl:          "/"
+baseurl:          ""
 
 author:
   name:           'Mark Otto'
