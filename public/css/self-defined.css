@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+
+section {
+    margin-bottom: 6rem;
+}
+
+/* timeline */
+.timeline{
+    list-style: none;
+    margin-left: 1em;
+    padding-left: 1.5em;
+    border-left: 2px grey solid;
+}
+
+.timeline li{
+    line-height: 1.5em;
+    position: relative;
+    margin-bottom: 1.5em;
+}
+.timeline li:hover:before{
+    transform: scale(1.2, 1.2);
+}
+.timeline li:before{
+    content: "";
+    left: -2.3em;
+    width: 1.5em;
+    height: 1.5em;
+    display: block;
+    position: absolute;
+    background: #f8bd24;
+    border-radius: 100%;
+    transition: transform .3s;
+}
+
+/* timeline firstline */
+
+.timeline .firstline {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 1.5rem, 1rem ; 
+}
+  
+.timeline .firstline .left {
+    margin-right: auto;
+}
+  
+.timeline .firstline .right {
+    margin-left: auto;
+    font-style: italic;
+    color: darkred;
+}
+.timeline .firstline .reference {
+    font-size: medium;
+    font-weight: normal;
+}
+
+.timeline .firstline .reference strong.author{
+    font-weight: bold;
+    color: darkred;
+}
+
+/* timeline normalcontent */
+
+.timeline .normalcontent {
+    font-size: medium;
+    display: flex;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.timeline .normalcontent .right {
+    margin-left: auto;
+    color: darkred;
+}
+
+.timeline .normalcontent .left {
+    margin-right: auto;
+}
+
+
+
+.wrap h2.titlefont{
+    color:  #4d4f53 ;
+    font-family: "Abril Fatface";
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* sidebar */
+
+.sidebar {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: rgba(255,255,255,.5);
+    background-color: #1da57a; 
+    align-content: center;
+    justify-content: center;
+  }
+  @media (min-width: 48em) {
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 16.5rem;
+      text-align: left;
+      overflow: hidden;
+      overflow-y: auto;
+      align-content: center;
+      justify-content: center;
+    }
+  }
+  
+  .sidebar .avatar{
+    height: 240px;
+    width: 240px;
+    background: #fff;
+    border-radius: 100%;
+    border: #fff 5px solid;
+    transition: transform 0.5s;
+  }
+  .sidebar .avatar:hover{
+    transform: rotate(1turn);
+  }
+  .sidebar .avatar img{
+    border-radius: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    color: #fff;
+  }
+  
+  /* About section */
+  .sidebar .sidebar-about h1 {
+    color: #fff;
+    margin-top: 0;
+    font-family: "Abril Fatface";
+    font-size: 3.25rem;
+    text-align: center;
+  }
+  
+  /* Sidebar nav */
+  .sidebar .sidebar-nav {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  .sidebar .sidebar-nav-item {
+    display: block;
+    line-height: 1.75;
+  }
+  
+  
+  .sidebar .sidebar-nav-item.active {
+    font-weight: bold;
+  }
+  /* Sticky sidebar
+   *
+   * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+   * contents to the bottom of the sidebar in tablets and up.
+   */
+  
+  @media (min-width: 48em) {
+    .sidebar .sidebar-sticky {
+      position: absolute;
+      right:  1rem;
+      top: 1rem;
+      left:   1rem;
+      bottom: 1rem;
+    }
+  }
+  
+
+/*   
+Sidebar Right
+*/
+
+.sidebar-right {
+    padding: 1rem;
+    background-color: #1da57a; 
+    
+    align-items: center;
+  }
+  @media (min-width: 48em) {
+    .sidebar-right {
+      position: fixed;
+      right: 0;
+      top: 0;
+      transition: width 0.2s ease, height 0.2s ease, display 0.2s ease;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  }
+
+.sidebar-right.hover-before {
+    width: 6rem;
+    height: 2rem;
+}
+
+.sidebar-right.hover-after {
+    width: 10rem;
+    height: 16rem;
+}
+
+.sidebar-right .sidebar-right-sticky {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+.sidebar-right .sidebar-right-sticky a {
+    color: black;
+}
+
+.sidebar-right .sidebar-right-sticky .sidebar-right-content {
+    background-color: white;
+    border-radius: 10px;
+    /* margin: 2rem 0; */
+}
+
+.sidebar-right .sidebar-right-sticky .sidebar-right-content:hover {
+    background-color: #d9e3ea;
+}
