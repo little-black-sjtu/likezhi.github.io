@@ -259,7 +259,6 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -1545,16 +1544,15 @@ img[bk-image=active]{
   
   @media (min-width: 48em) {
     .content {
-      max-width: 38rem;
-      margin-left: 18rem;
-      margin-right:  9rem;
+      margin-left: 20rem;
+      margin-right:  14rem;
     }
   }
   
   @media (min-width: 64em) {
     .content {
       margin-left: 20rem;
-      margin-right: 9rem;
+      margin-right: 14rem;
     }
   }
   
