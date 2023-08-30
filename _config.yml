@@ -29,7 +29,7 @@ sass:
 
 # Setup
 title:            Kezhi Li
-tagline:          'Personal Site'
-description:      'Personal site for Kezhi Li. A self-driven, quick starter, passionate researcher who enjoys solving challenging real-world problems.'
-url:              "http://little-black-sjtu.github.io/likezhi.github.io"
-baseurl:          ""
+tagline:          Personal Site
+description:      Personal site for Kezhi Li. A self-driven, quick starter, passionate researcher who enjoys solving challenging real-world problems.
+url:              http://little-black-sjtu.github.io/likezhi.github.io
+baseurl:          /likezhi.github.io

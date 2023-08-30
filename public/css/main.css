@@ -232,7 +232,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -309,7 +309,11 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color:  #4d4f53 ;
+  font-family: "Abril Fatface";
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
 }
 .page-title,
 .post-title {

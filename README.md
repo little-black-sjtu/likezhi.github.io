@@ -1,0 +1,1 @@
+This is the source repo for Li Kezhi's personal site. [Here](https://little-black-sjtu.github.io/likezhi.github.io/) is the link for his website.
