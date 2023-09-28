@@ -2,7 +2,7 @@
 
 
 section {
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
 }
 
 /* timeline */
@@ -59,21 +59,53 @@ section {
 
 .timeline .pub{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.timeline .pub .papertitle{
-    font-weight: bold;
-    font-size: smaller;
+.timeline .pub .pub-content{
+  display: flex;
+  flex-direction: column;
 }
 
-.timeline .pub .author{
-    font-size: smaller;
+.timeline .pub .pub-pic{
+  float: right;
+  width: 200px;
 }
 
-.timeline .pub .author strong{
-    font-weight: bold;
-    color: darkred;
+.timeline .pub .pub-pic img{
+  width: 200px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.timeline .pub .pub-content .papertitle{
+  font-weight: bold;
+  font-size: smaller;
+  margin-bottom: 0.5rem;
+}
+
+.timeline .pub .pub-content .author{
+  font-size: smaller;
+  margin-bottom: 0.5rem;
+}
+
+.timeline .pub .pub-content .author strong{
+  font-weight: bold;
+  color: darkred;
+}
+
+.timeline .pub .pub-content .links{
+  font-size: smaller;
+}
+
+.timeline .pub .pub-content .links strong{
+  font-weight: bold;
+  color: darkred;
+  font-size: medium;
+}
+
+.timeline .pub .pub-content a{
+  color: #000;
 }
 
 /* timeline normalcontent */
