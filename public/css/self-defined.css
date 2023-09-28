@@ -55,7 +55,23 @@ section {
     font-weight: normal;
 }
 
-.timeline .firstline .reference strong.author{
+/* timeline publication div */
+
+.timeline .pub{
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline .pub .papertitle{
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.timeline .pub .author{
+    font-size: smaller;
+}
+
+.timeline .pub .author strong{
     font-weight: bold;
     color: darkred;
 }
@@ -216,13 +232,13 @@ Sidebar Right
   }
 
 .sidebar-right.hover-before {
-    width: 6rem;
+    width: 5rem;
     height: 2rem;
 }
 
 .sidebar-right.hover-after {
-    width: 10rem;
-    height: 16rem;
+    width: 5rem;
+    height: 8rem;
 }
 
 .sidebar-right .sidebar-right-sticky {
@@ -238,11 +254,57 @@ Sidebar Right
 }
 
 .sidebar-right .sidebar-right-sticky .sidebar-right-content {
-    background-color: white;
     border-radius: 10px;
+    font-size: small;
+    color: #fff;
     /* margin: 2rem 0; */
 }
 
 .sidebar-right .sidebar-right-sticky .sidebar-right-content:hover {
-    background-color: #d9e3ea;
+    color: #1b374b;
+}
+
+/* card */
+
+.card {
+  position: relative;
+  overflow: hidden;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #f1f1f1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  box-shadow: inset 0 0 10px rgb(112, 112, 112);
+}
+
+.card .card-content {
+  padding: 20px;
+  -webkit-border-radius: 0 0 2px 2px;
+  -moz-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card .card-action {
+  border-top: 1px solid rgba(160,160,160,0.2);
+  padding: 20px;
+}
+
+.card .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.card .role {
+  position: relative;
+  right: initial;
+  top: initial;
+  font-size: 1.25rem;
 }

@@ -1548,15 +1548,15 @@ img[bk-image=active]{
   
   @media (min-width: 48em) {
     .content {
-      margin-left: 20rem;
-      margin-right:  14rem;
+      margin-left: 18rem;
+      margin-right:  6rem;
     }
   }
   
   @media (min-width: 64em) {
     .content {
-      margin-left: 20rem;
-      margin-right: 14rem;
+      margin-left: 18rem;
+      margin-right: 6rem;
     }
   }
   
