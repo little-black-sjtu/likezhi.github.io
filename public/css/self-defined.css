@@ -105,6 +105,29 @@
   color: #000;
 }
 
+/* timeline publication div */
+
+.timeline .price {
+  display: flex;
+  margin-bottom: 1rem; 
+}
+
+.timeline .price .name {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.timeline .price .time {
+  font-style: italic;
+}
+
+.timeline .price .bar{
+  margin-left: 4rem;
+  margin-right: 4rem;
+  height: 100%;
+  width: 2px;
+}
+
 /* timeline normalcontent */
 
 .timeline .normalcontent {
