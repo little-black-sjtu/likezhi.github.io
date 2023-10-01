@@ -174,8 +174,10 @@
     padding: 2rem 1rem;
     color: #fff;
     background-color: #198664; 
+    position: relative;
+    /* display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: center; */
   }
   @media (min-width: 48em) {
     .sidebar {
@@ -193,6 +195,7 @@
   }
   
   .sidebar .avatar{
+    margin:auto;
     height: 240px;
     width: 240px;
     background: #fff;
