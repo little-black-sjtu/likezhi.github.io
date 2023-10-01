@@ -66,14 +66,22 @@
 .timeline .pub .pub-pic{
   margin-top: 0.5rem;
   float: left;
-  width: 200px;
+  width: 100px;
+}@media (min-width: 72em) {
+  .timeline .pub .pub-pic{
+    width: 200px;
+  }
 }
 
 .timeline .pub .pub-pic img{
-  width: 200px;
+  width: 100px;
   height: auto;
   vertical-align: middle;
-}
+}@media (min-width: 72em) {
+    .timeline .pub .pub-pic img {
+      width: 200px;
+    }
+  }
 
 .timeline .pub .pub-content .papertitle{
   font-weight: bold;
@@ -110,6 +118,7 @@
 .timeline .price {
   display: flex;
   margin-bottom: 1rem; 
+  font-size: smaller;
 }
 
 .timeline .price .name {
@@ -122,10 +131,15 @@
 }
 
 .timeline .price .bar{
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   height: 100%;
   width: 2px;
+}@media (min-width: 72em) {
+  .timeline .price .bar {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
 }
 
 .timeline .price .level{
