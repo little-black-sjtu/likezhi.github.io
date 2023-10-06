@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+strong{
+  color: darkred;
+}
 /* timeline */
 .timeline{
     list-style: none;
@@ -43,7 +46,6 @@
 .timeline .firstline .right {
     margin-left: auto;
     font-style: italic;
-    color: darkred;
 }
 .timeline .firstline .reference {
     font-size: medium;
@@ -96,7 +98,6 @@
 
 .timeline .pub .pub-content .author strong{
   font-weight: bold;
-  color: darkred;
 }
 
 .timeline .pub .pub-content .links{
@@ -105,13 +106,12 @@
 
 .timeline .pub .pub-content .links strong{
   font-weight: bold;
-  color: darkred;
   font-size: medium;
 }
 
-.timeline .pub .pub-content a{
+/* .timeline .pub .pub-content a{
   color: #000;
-}
+} */
 
 /* timeline publication div */
 
@@ -146,7 +146,6 @@
   margin-left:auto;
   font-weight: bold;
   font-style: italic;
-  color: darkred;
 }
 
 /* timeline normalcontent */
