@@ -118,7 +118,7 @@ strong{
 .timeline .price {
   display: flex;
   margin-bottom: 1rem; 
-  font-size: large;
+  font-size: x-large;
 }
 
 .timeline .price .name {
