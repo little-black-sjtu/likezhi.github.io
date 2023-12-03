@@ -125,6 +125,12 @@ strong{
   display: flex;
 }
 
+.timeline .picture img{
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+
 .timeline .price .name {
   font-weight: bold;
   font-style: italic;
