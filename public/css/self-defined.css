@@ -123,11 +123,12 @@ strong{
 
 .timeline .picture {
   display: flex;
+  font-weight: bold;
   flex-direction: column;
 }
 
 .timeline .picture .pic-div img{
-  width: 400px;
+  width: 500px;
   height: auto;
   vertical-align: middle;
 }
