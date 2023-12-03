@@ -123,6 +123,7 @@ strong{
 
 .timeline .picture {
   display: flex;
+  flex-direction: column;
 }
 
 .timeline .picture .pic-div img{
