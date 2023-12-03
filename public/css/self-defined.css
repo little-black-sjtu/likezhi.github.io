@@ -125,7 +125,7 @@ strong{
   display: flex;
 }
 
-.timeline .picture img{
+.timeline .picture .pic-div img{
   width: 400px;
   height: auto;
   vertical-align: middle;
