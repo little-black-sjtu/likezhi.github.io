@@ -121,6 +121,10 @@ strong{
   font-size: large;
 }
 
+.timeline .picture {
+  display: flex;
+}
+
 .timeline .price .name {
   font-weight: bold;
   font-style: italic;
